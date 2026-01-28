@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log in Page</title>
+    <title>Register</title>
     <link rel="stylesheet" href="style.css">
 </head>
- 
 <body>
-    <h1>Simple Login System</h1>
-    
+    <h1>Simple Register System</h1>
     <form action="dashboard.html">
-        <div class="Login-Container">
-            <h2> Login</h2>
+        <div class="register_Container">
+            <h2> Register account</h2>
             
             <div class="inputs">
                 <h3 class ="user">Username </h3>
@@ -20,11 +18,14 @@
                 
                 <h3 class="pass">Password </h3>
                 <input type="password" class="password" placeholder="Enter Password" required>
+                <h3 class="pass"> Confirm Password</h3>
+                <input type="password" class="password" placeholder="Confirm Password" required>
             </div>
             
-            <button type="submit" class="login">Login</button>
+            <a href="login.html" class="create">Register</a>
             
-            <a href="register.html" class="register">Sign up</a>
         </div>
-    </form> </body>
-</html> 
+    </form> 
+    
+</body>
+</html>
